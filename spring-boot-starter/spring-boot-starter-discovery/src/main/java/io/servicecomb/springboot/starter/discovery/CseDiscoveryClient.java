@@ -34,9 +34,6 @@ import io.servicecomb.serviceregistry.api.registry.MicroserviceInstance;
 import io.servicecomb.serviceregistry.client.RegistryClientFactory;
 import io.servicecomb.serviceregistry.client.ServiceRegistryClient;
 
-/**
- * Sukesh
- */
 public class CseDiscoveryClient implements DiscoveryClient {
 
     @Inject
