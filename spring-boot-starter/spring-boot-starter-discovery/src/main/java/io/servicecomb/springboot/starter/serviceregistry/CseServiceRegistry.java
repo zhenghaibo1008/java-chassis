@@ -30,12 +30,7 @@ public class CseServiceRegistry implements ServiceRegistry<CseRegistration> {
 
 	public CseServiceRegistry(ServiceRegistryClient client) {
 		this.client = client;
-		try {
-			this.client.init();
-		} catch (Exception e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		}
+		this.client.init();
 	}
 
 	@Override
