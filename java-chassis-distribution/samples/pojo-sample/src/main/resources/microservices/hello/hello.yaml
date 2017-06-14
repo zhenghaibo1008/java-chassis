@@ -19,10 +19,10 @@ paths:
             type: string
       responses:
         200:
-          description: asdf
+          description: 正确返回
           schema:
             type: string
         default:
-          description: asf
+          description: 默认返回
           schema:
             type: string
